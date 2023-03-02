@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="464.0" prefWidth="782.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.ChooseRoomShape">
+   <children>
+      <Pane layoutX="539.0" layoutY="43.0" prefHeight="164.0" prefWidth="187.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@sqrdrm.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane layoutX="299.0" layoutY="43.0" prefHeight="164.0" prefWidth="187.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Screen%20Shot%202022-05-05%20at%205.00.45%20PM.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+
+      <Button fx:id="Lbutton" layoutX="105.0" layoutY="202.0" mnemonicParsing="false" onAction="#LshapedRoom" text="Shape 1" />
+      <Pane layoutX="70.0" layoutY="38.0" prefHeight="164.0" prefWidth="187.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-27.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Screen%20Shot%202022-05-05%20at%204.58.42%20PM.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+
+            <Button fx:id="sideCutBtton" layoutX="362.0" layoutY="202.0" mnemonicParsing="false" onAction="#sidedCutedRoom" text="Shape 2" />
+
+            <Button fx:id="squareButton" layoutX="618.0" layoutY="202.0" mnemonicParsing="false" onAction="#squaredRoom" text="Shape 3" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.HelloController">
+   <children>
+      <Button fx:id="designButton" layoutX="180.0" layoutY="294.0" mnemonicParsing="false" onAction="#design">
+         <graphic>
+            <ImageView fitHeight="56.0" fitWidth="253.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Screen%20Shot%202022-05-05%20at%206.32.44%20PM%20(1).png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="260.0" layoutY="343.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="30.0">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Screen%20Shot%202022-05-05%20at%206.33.49%20PM.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <ImageView fitHeight="124.0" fitWidth="457.0" layoutX="86.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Screen%20Shot%202022-05-05%20at%206.30.59%20PM.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="367.0" layoutX="137.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ss.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
